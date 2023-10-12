@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Erblina Sekiraqa-Portfolio </title>
+        <link rel="stylesheet" href="Css-koodaus.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+<section class="header">
+  <nav>
+    <a href="index.html"><img src="Logo2.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+     <ul>
+        <li><a href="index.html.">ETUSIVU</a></li>
+        <li><a href="HTML-CV.html">ANSIOLUETTELO</a></li>
+        <li><a href="HTML-Yhteystiedot.html">YHTEYSTIEDOT</a></li>
+    </ul>
+    </div>
+    <i class="fa fa-bars" onclick ="showmenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>Erblina Sekiraqa</h1>
+    <p> Hei! Olen Erblina Sekiraqa, IT-tradenomi opiskelija Haaga-Helia ammattikorkeakoulusta.<br> 
+    Olen kiinnostunut erityisesti käyttöliittymä- ja käyttäjäkokemussuunnittelusta (UI & UX Design). <br>
+    Minun intohimoni on työskennellä käyttäjälähtöisesti. <br>
+    Olen innostunut etsimään luovia ja innovatiivisia ratkaisuja, vastaamaan käyttäjätarpeisiin ja saumattomaan käyttökokemukseen. <br>
+    Olen luonteeltani luova sielu, jolle pienet yksityiskohdat ovat tärkeitä. <br>
+    Ajattelen,että ne muodostavat lopulta suuren kokonaisuuden.<br> 
+     Tervetuloa tutustumaan portfoliooni! </p>
+
+    <a href="HTML-Yhteystiedot.html"class="Button1">Ota yhteyttä!</a>
+</div>
+<script>
+
+ var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+    navLinks.style.right = "0";
+    }
+    function hidemenu(){
+    navLinks.style.right="-200px";
+   }
+</script>
+</section>
+<section class="Erblina">
+    <div>
+<img src="Kuva 2.jpeg" style="max-width: 100%;height: auto;">
+<br>
+<q> Rohkeus tekee sen, että asiat todella tapahtuvat</q>
+</div>
+
+</section>
+
+<section class="footer">
+    <i class="fa fa-copyright">Erblina Sekiraqa</i>
+</section>
+</div>
+</body>
+</html>
